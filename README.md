@@ -1,14 +1,26 @@
-Веб-страница с формой записи к врачу в поликлинике. 
-Пользователь должен иметь возможность выбрать в форме время, дату и врача,
-указать свои ФИО и отправить данные. 
-
-Прием длится один час, 
-нет возможности выбрать у врача время, на которое кто-либо уже записался. 
-Так же нет возможности записаться в нерабочее время. 
-Время работы поликлиники: пн - пт с 9:00 до 18:00. 
-Администратор может зайти через админку и посмотреть запись у любого врача.
-
-Результат должен быть выложен на гитхаб и запускаться на Python 3.x и Django 1.8.
+# Clinic
+Web page with a form for making an appointment with a doctor at a clinic.
+The user should be able to select the time, date and doctor in the form,
+specify their full name and submit the data. Appointments last one hour,
+it is not possible to select a time slot that has already been booked.
+It is also not possible to make an appointment outside of business hours.
+Clinic business hours: Monday - Friday, 9:00 am to 6:00 pm.
+The administrator can access the admin panel and view the appointments of any doctor.
+Load/Password for entrance to the admin: test
 
 
-логин/пароль для входa в админку: test
+## Content
+- [Start](#start)
+- [Technologies](#tech)
+
+
+## <a id="start">Start</a>
+To run the application, download the project files and static files from 
+[here]([https://drive.google.com/file/d/1ew3mKiVWpxtODSxxzoPFdfnpUIDc1CkL/view?usp=sharing](https://drive.google.com/drive/folders/1l-0wXJi4sg_rm52UIwcKGnFrGZo4y_pJ?usp=sharing)). Put folder with static files
+to directory 'app'.
+
+
+### <a id="tech">Technologies</a>
+For the installation and launch of the project, you need [Docker](https://docker.com/).
+This project uses Python 3.5, Django 1.8, JavaScript.
+
