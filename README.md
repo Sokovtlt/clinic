@@ -21,6 +21,5 @@ to directory 'app'.
 
 
 ### <a id="tech">Technologies</a>
-For the installation and launch of the project, you need [Docker](https://docker.com/).
 This project uses Python 3.5, Django 1.8, JavaScript.
 
